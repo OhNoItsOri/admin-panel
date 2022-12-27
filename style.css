@@ -1,6 +1,20 @@
 .side-bar {
-    background: lightblue;
+    background: rgb(54, 170, 209);
+    border: solid black 1px;
+    position: absolute;
     width: fit-content;
-    padding: 10px;
+    padding: 40px;
     height: 100vh;
+    text-align: left;
+}
+
+.side-bar-header, .side-bar-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content-header {
+    display: flex;
+    border: solid black 1px;
+    justify-items: right;
 }
